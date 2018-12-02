@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYZScrollViewManager_Example' do
+  pod 'SYZScrollViewManager', :path => '../'
+
+  target 'SYZScrollViewManager_Tests' do
+    inherit! :search_paths
+
+
+  end
+end

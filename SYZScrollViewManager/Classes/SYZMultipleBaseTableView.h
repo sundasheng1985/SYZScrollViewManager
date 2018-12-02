@@ -1,0 +1,12 @@
+//
+//  SYZMultipleBaseTableView.h
+//  SYZScrollViewManager
+//
+//  Created by LeeRay on 2018/12/2.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SYZMultipleBaseTableView : UITableView
+
+@end
