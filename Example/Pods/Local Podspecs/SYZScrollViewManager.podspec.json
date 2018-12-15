@@ -1,7 +1,7 @@
 {
   "name": "SYZScrollViewManager",
   "version": "0.1.0",
-  "summary": "一个滚动试图管理器",
+  "summary": "多个滚动试图管理器",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sundasheng1985/SYZScrollViewManager",
   "license": {
@@ -19,10 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "SYZScrollViewManager/Classes/**/*",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
-  ],
   "dependencies": {
     "Masonry": [
 

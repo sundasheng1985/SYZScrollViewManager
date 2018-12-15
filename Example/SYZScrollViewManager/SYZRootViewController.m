@@ -8,6 +8,7 @@
 
 #import "SYZRootViewController.h"
 #import "SYZUserInfoViewController.h"
+#import "SYZUserInfoOtherViewController.h"
 
 @interface SYZRootViewController ()
 
@@ -23,10 +24,21 @@
     [btn setTitle:@"用户详情页" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIButton *otherBTN = [UIButton buttonWithType:UIButtonTypeCustom];
+    otherBTN.backgroundColor = [UIColor yellowColor];
+    otherBTN.frame = CGRectMake(100, 300, 100, 100);
+    [otherBTN setTitle:@"用户详情页" forState:UIControlStateNormal];
+    [otherBTN addTarget:self action:@selector(otherAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:otherBTN];
 }
 
 - (void)buttonAction:(UIButton *)btn{
     [self.navigationController pushViewController:[SYZUserInfoViewController new] animated:YES];
+}
+
+- (void)otherAction:(UIButton *)btn{
+    [self.navigationController pushViewController:[SYZUserInfoOtherViewController new] animated:YES];
 }
 
 @end

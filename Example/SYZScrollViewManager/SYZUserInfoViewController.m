@@ -8,11 +8,7 @@
 
 #import "SYZUserInfoViewController.h"
 #import <Masonry/Masonry.h>
-#import <SYZScrollViewManager/SYZMultipleBaseTableView.h>
-/**管理器*/
-#import <SYZScrollViewManager/SYZMultipleScrollViewManager.h>
-/**下拉放大管理器*/
-#import <SYZScrollViewManager/SYZStretchableTableHeaderManager.h>
+#import <SYZScrollViewManager/SYZScrollViewManager.h>
 /**分页管理器*/
 #import <SGPagingView/SGPagingView.h>
 /**子控制器*/

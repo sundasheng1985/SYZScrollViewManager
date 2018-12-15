@@ -66,7 +66,6 @@
         _tableview = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
         _tableview.delegate = self;
         _tableview.dataSource = self;
-        _tableview.backgroundColor = [UIColor yellowColor];
 //        _tableview.layer.cornerRadius = 10;
         _tableview.clipsToBounds = YES;
     }

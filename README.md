@@ -27,3 +27,6 @@ sundasheng1985, 641569408@qq.com
 ## License
 
 SYZScrollViewManager is available under the MIT license. See the LICENSE file for more info.
+
+### 0.1.1
+添加基类控制器，创建控件更方便

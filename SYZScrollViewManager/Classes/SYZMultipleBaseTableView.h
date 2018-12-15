@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/** 底层滚动试图 */
 @interface SYZMultipleBaseTableView : UITableView
 
 @end

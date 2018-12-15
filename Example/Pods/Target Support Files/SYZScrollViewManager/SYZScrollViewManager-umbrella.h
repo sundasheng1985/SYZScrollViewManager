@@ -10,8 +10,10 @@
 #endif
 #endif
 
+#import "SYZBaseMultipleScrollViewController.h"
 #import "SYZMultipleBaseTableView.h"
 #import "SYZMultipleScrollViewManager.h"
+#import "SYZScrollViewManager.h"
 #import "SYZStretchableTableHeaderManager.h"
 
 FOUNDATION_EXPORT double SYZScrollViewManagerVersionNumber;

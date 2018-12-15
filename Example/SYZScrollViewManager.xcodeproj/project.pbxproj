@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2378C8B021B6CFE800734261 /* SYZUserInfoOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2378C8AF21B6CFE800734261 /* SYZUserInfoOtherViewController.m */; };
 		2391884221A1413B0047A022 /* SYZNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2391884121A1413B0047A022 /* SYZNavViewController.m */; };
 		2391884521A1416F0047A022 /* SYZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2391884421A1416F0047A022 /* SYZRootViewController.m */; };
 		2391884821A1418E0047A022 /* SYZUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2391884721A1418E0047A022 /* SYZUserInfoViewController.m */; };
@@ -42,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		0D4A7C48E333EF936A953E34 /* Pods_SYZScrollViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYZScrollViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2378C8AE21B6CFE800734261 /* SYZUserInfoOtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZUserInfoOtherViewController.h; sourceTree = "<group>"; };
+		2378C8AF21B6CFE800734261 /* SYZUserInfoOtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZUserInfoOtherViewController.m; sourceTree = "<group>"; };
 		2391884021A1413B0047A022 /* SYZNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZNavViewController.h; sourceTree = "<group>"; };
 		2391884121A1413B0047A022 /* SYZNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYZNavViewController.m; sourceTree = "<group>"; };
 		2391884321A1416F0047A022 /* SYZRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYZRootViewController.h; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				2391884421A1416F0047A022 /* SYZRootViewController.m */,
 				2391884621A1418E0047A022 /* SYZUserInfoViewController.h */,
 				2391884721A1418E0047A022 /* SYZUserInfoViewController.m */,
+				2378C8AE21B6CFE800734261 /* SYZUserInfoOtherViewController.h */,
+				2378C8AF21B6CFE800734261 /* SYZUserInfoOtherViewController.m */,
 				2391884921A141AD0047A022 /* SYZListViewController.h */,
 				2391884A21A141AD0047A022 /* SYZListViewController.m */,
 				239CF44A21A14A13005CA420 /* SYZHeaderView.h */,
@@ -434,6 +439,7 @@
 			files = (
 				2391884221A1413B0047A022 /* SYZNavViewController.m in Sources */,
 				2391884B21A141AD0047A022 /* SYZListViewController.m in Sources */,
+				2378C8B021B6CFE800734261 /* SYZUserInfoOtherViewController.m in Sources */,
 				6003F59E195388D20070C39A /* SYZAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				2391884521A1416F0047A022 /* SYZRootViewController.m in Sources */,
